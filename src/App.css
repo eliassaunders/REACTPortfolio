@@ -43,7 +43,7 @@
 
 .footer {
   width: 100%;
-  position: fixed;
+  position:static;
   bottom: 0;
   height: 100px;
   display: flex;
@@ -75,7 +75,7 @@
   background: #B97A95;
   width: 100px;
   height: 50px;
-  margin: 30px;
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,16 +96,27 @@
 .myCard {
   display: flex;
   justify-content: start;
+  flex-wrap: wrap;
   background-color: #716F81;
 }
 
 .cardish {
-  width: 200px;
-  height: 300px;
+  position: relative;
+  width: 230px;
+  height: 275px;
   background-color: #716F81;
-  flex-wrap: wrap;
+  border-radius: 15px;
+  background: #B97A95;
+  margin: 15px;
 }
 
+.project-title {
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 2px;
+  color:#F6AE99;
+}
 .article {
   display: flex;
   align-items: center;
@@ -119,12 +130,64 @@
   padding: 10px, 10px, 10px, 10px;
 }
 
-.aboutClass {
+.aboutClass, .contactDiv {
   background-color: #716F81;
 }
 
 .imgs {
+  position:static;
   width: 200px;
   height: 200px;
   border-radius: 25px;
+}
+
+.contactForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  height: 600px;
+  background-color: #F6AE99;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 25px;
+  border-width: 5px;
+}
+
+.name-input, .email-input {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  border-width: 5px;
+  padding: 15px;
+}
+
+.body-text {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  border-width: 5px;
+}
+
+.formTitle {
+  color: #716F81;
+  font-weight: bolder;
+}
+
+.buttun {
+  height: 50px;
+  border-radius: 25px;
+  border-width: 5px;
+}
+
+.homeTitle {
+  color: #F6AE99;
+  font-weight: bolder;
+}
+
+.svg {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
 }

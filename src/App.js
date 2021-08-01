@@ -5,7 +5,6 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
-import Home from './components/Home';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 
@@ -16,41 +15,41 @@ function App() {
       name: "My Game",
       image: "./assets/images/Project2.PNG",
       link: "https://mygameproject2.herokuapp.com",
-      gitHub: "www.github.com"
+      gitHub: "https://github.com/Robert-Schwartz/myGAME"
     },
     {
       id: 2,
       name: "Run Buddy",
       image: "./assets/images/run-buddy.PNG",
       link: "https://eliassaunders.github.io/run-buddy/",
-      gitHub: "www.github.com"
+      gitHub: "https://github.com/eliassaunders/run-buddy"
     },
     {
       id: 3,
-      name: "Run Buddy",
+      name: "Team Manager",
       image: "./assets/images/run-buddy.PNG",
-      link: "https://eliassaunders.github.io/run-buddy/",
+      link: "https://drive.google.com/file/d/1zGPAIPeBQH4eBKB4h6J2nrzD6KCRycE2/view",
       gitHub: "https://github.com/eliassaunders/TeamManager.git"
     },
     {
       id: 4,
-      name: "Run Buddy",
-      image: "./assets/images/run-buddy.PNG",
-      link: "https://eliassaunders.github.io/run-buddy/",
-      gitHub: "www.github.com"
+      name: "MongoDB API",
+      image: "./assets/images/Capture.PNG",
+      link: "https://drive.google.com/file/d/1k37NKV0O1mZhZESm7-uxszaQw7G_ft99/view",
+      gitHub: "https://github.com/eliassaunders/SocialMediaAPI"
     },
     {
       id: 5,
-      name: "Run Buddy",
+      name: "README Generator",
       image: "./assets/images/run-buddy.PNG",
-      link: "https://eliassaunders.github.io/run-buddy/",
-      gitHub: "www.github.com"
+      link: "https://github.com/eliassaunders/README_generator",
+      gitHub: "https://github.com/eliassaunders/README_generator"
     },
     {
       id: 6,
-      name: "Run Buddy",
-      image: "./assets/images/run-buddy.PNG",
-      link: "https://eliassaunders.github.io/run-buddy/",
+      name: "Make Me",
+      image: "./assets/images/makeMe.PNG",
+      link: "https://eliassaunders.github.io/Project-1/",
       gitHub: "www.github.com"
     }
   ]
@@ -68,11 +67,11 @@ function App() {
       case 'Resume':
         return <Resume />;
       default:
-        return <Home />;
+        return <About />;
     }
   }
   return (
-    <div>
+    <div className="contactDiv">
       <div className="d-flex align-items-center navBack">
         <div>
           <Header></Header>
