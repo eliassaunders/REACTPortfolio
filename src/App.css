@@ -1,3 +1,7 @@
+:root {
+  background-color: #716F81;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,92 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6AE99;
+  margin-bottom: 15px;
+}
+
+.footerC {
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navColor .nav-link {
+  color: #319BCE;
+  font-size: 25px;
+}
+
+.navBack {
+  background-color: #F6AE99;
+}
+
+.nav-item .nav-link{
+  border-radius: 15px;
+  background: #B97A95;
+  width: 100px;
+  height: 50px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spans{
+  font-weight: bold;
+  font-size: medium;
+}
+
+
+.maintitle {
+  font-size: larger;
+  font-weight: bolder;
+  color: #B97A95;
+}
+
+.myCard {
+  display: flex;
+  justify-content: start;
+  background-color: #716F81;
+}
+
+.cardish {
+  width: 200px;
+  height: 300px;
+  background-color: #716F81;
+  flex-wrap: wrap;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background: #B97A95;
+  width: 600px;
+}
+
+.textc {
+  padding: 10px, 10px, 10px, 10px;
+}
+
+.aboutClass {
+  background-color: #716F81;
+}
+
+.imgs {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
 }
