@@ -10,13 +10,13 @@ function Contact() {
 
                 <br/>
 
-                <input placeholder="Enter full name" className="name-input"></input>
+                <input placeholder="Enter full name" className="name-input" required></input>
 
-                <input placeholder="Enter email" className="email-input"></input>
+                <input placeholder="Enter email" className="email-input" required></input>
 
-                <textarea placeholder="Contact Body" className="body-text"></textarea>
+                <textarea placeholder="Contact Body" className="body-text" required></textarea>
 
-                <button type='submit' className="buttun" onClick={verify}>Submit</button>
+                <button type='submit' className="buttun">Submit</button>
 
         
         </form>
@@ -25,17 +25,24 @@ function Contact() {
     )
 
     function verify(event) {
-        const name = document.querySelector('.name-input')
-        const email = document.querySelector('.email-input')
-        const body = document.querySelector('.body-text')
-    
-        console.log('hello')
+        event.preventDefault()
+
+        const name = document.querySelector('.name-input').value
+        const email = document.querySelector('.email-input').value
+        const body = document.querySelector('.body-text').value
+
+        console.log(name)
+        console.log(email)
+        console.log(body)
+
     
         if (!name || !email || !body) {
             alert('You need to complete all fields.')
         }
-        if (email !== /.+\@.+\..+/) {
+        if (!email.match(/.+@.+\..+/)) {
             alert('You need to enter a valid email address.')
+        } else {
+            alert("Message Sent!")
         }
     }
     

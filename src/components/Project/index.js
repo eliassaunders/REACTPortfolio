@@ -8,9 +8,9 @@ function Project(props) {
             {props.projects.map(project => (
             <section key={project.id} className="cardish">
                 <p className="project-title">{project.name}</p>
-                <a href={project.github}>
+                <a href={project.gitHub}>
                     <img alt="Github" src={github} className="svg"></img>
-                </a>
+                </a>    
                 <a href={project.link}>
                     <img alt="Link" src={link} className="svg"></img>
                 </a>
