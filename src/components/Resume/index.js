@@ -1,11 +1,12 @@
 import React from 'react'
+import ResumeFile from '../../assets/Resume (1).pdf';
 
 function Resume() {
    return (
       <div>
-         <button>
-         <a download="resume(1).pdf">Download Resume</a>
-         </button>
+         <a href={ResumeFile} download>
+            <button>Download Resume</button>
+         </a>
       </div>
    )
 }

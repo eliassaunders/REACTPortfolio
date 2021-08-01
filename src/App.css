@@ -43,7 +43,7 @@
 
 .footer {
   width: 100%;
-  position:static;
+  position: sticky;
   bottom: 0;
   height: 100px;
   display: flex;
