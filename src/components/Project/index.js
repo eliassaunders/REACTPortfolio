@@ -4,6 +4,8 @@ import link from '../../assets/images/paper-clip-svgrepo-com.svg'
 
 function Project(props) {
     return (
+        <div className="aboutClass">
+            <h1 className="homeTitle">My Projects</h1>
         <section className="myCard">
             {props.projects.map(project => (
             <section key={project.id} className="cardish">
@@ -18,6 +20,7 @@ function Project(props) {
             </section>
             ))}
         </section>
+        </div>
     )
 }
 

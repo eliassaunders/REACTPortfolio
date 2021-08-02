@@ -103,7 +103,7 @@
 .cardish {
   position: relative;
   width: 230px;
-  height: 275px;
+  height: 300px;
   background-color: #716F81;
   border-radius: 15px;
   background: #B97A95;
@@ -123,7 +123,9 @@
   justify-content: center;
   border-radius: 15px;
   background: #B97A95;
-  width: 600px;
+  width: 400px;
+  height: auto;
+  margin: 10px;
 }
 
 .textc {
@@ -134,11 +136,18 @@
   background-color: #716F81;
 }
 
+.aboutClass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
 .imgs {
-  position:static;
+  position: relative;
   width: 200px;
   height: 200px;
   border-radius: 25px;
+  margin-left: 15px;
 }
 
 .contactForm {
@@ -190,4 +199,9 @@
   width: 30px;
   height: 30px;
   margin: 10px;
+}
+
+.me {
+  width: 300px;
+  border-radius: 25px;
 }
