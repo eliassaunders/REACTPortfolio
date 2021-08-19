@@ -40,10 +40,10 @@ function App() {
     },
     {
       id: 5,
-      name: "README Generator",
-      image: "./assets/images/run-buddy.PNG",
-      link: "https://github.com/eliassaunders/README_generator",
-      gitHub: "https://github.com/eliassaunders/README_generator"
+      name: "Health Wealth",
+      image: "./assets/images/healthwealth.PNG",
+      link: "https://healthwealth.herokuapp.com/",
+      gitHub: "https://github.com/Wsamuell/health-wealth"
     },
     {
       id: 6,
