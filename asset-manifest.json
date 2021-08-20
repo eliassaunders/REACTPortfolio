@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.b315295d.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.80b05257.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.80b05257.chunk.js.map",
-    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.e6edb98c.js",
-    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.e6edb98c.js.map",
+    "main.js": "/ReactPortfolio/static/js/main.a967b6ab.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.a967b6ab.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.70fe2b05.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.70fe2b05.js.map",
     "static/js/2.0d4dda57.chunk.js": "/ReactPortfolio/static/js/2.0d4dda57.chunk.js",
     "static/js/2.0d4dda57.chunk.js.map": "/ReactPortfolio/static/js/2.0d4dda57.chunk.js.map",
-    "static/js/3.b03d727f.chunk.js": "/ReactPortfolio/static/js/3.b03d727f.chunk.js",
-    "static/js/3.b03d727f.chunk.js.map": "/ReactPortfolio/static/js/3.b03d727f.chunk.js.map",
+    "static/js/3.f4444d18.chunk.js": "/ReactPortfolio/static/js/3.f4444d18.chunk.js",
+    "static/js/3.f4444d18.chunk.js.map": "/ReactPortfolio/static/js/3.f4444d18.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
     "static/css/main.b315295d.chunk.css.map": "/ReactPortfolio/static/css/main.b315295d.chunk.css.map",
     "static/js/2.0d4dda57.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.0d4dda57.chunk.js.LICENSE.txt",
+    "static/media/Capture.PNG": "/ReactPortfolio/static/media/Capture.5099ed0c.PNG",
+    "static/media/Health Wealth.PNG": "/ReactPortfolio/static/media/Health Wealth.e1372d20.PNG",
     "static/media/Make Me.PNG": "/ReactPortfolio/static/media/Make Me.86cb4a49.PNG",
     "static/media/MongoDB API.PNG": "/ReactPortfolio/static/media/MongoDB API.eb0d4a58.PNG",
     "static/media/My Game.PNG": "/ReactPortfolio/static/media/My Game.1ae2b8ea.PNG",
@@ -26,9 +28,9 @@
     "static/media/paper-clip-svgrepo-com.30e8f7d0.svg": "/ReactPortfolio/static/media/paper-clip-svgrepo-com.30e8f7d0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6edb98c.js",
+    "static/js/runtime-main.70fe2b05.js",
     "static/js/2.0d4dda57.chunk.js",
     "static/css/main.b315295d.chunk.css",
-    "static/js/main.80b05257.chunk.js"
+    "static/js/main.a967b6ab.chunk.js"
   ]
 }
