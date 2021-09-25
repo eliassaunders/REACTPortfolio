@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.b315295d.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.a967b6ab.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.a967b6ab.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.462eeb7c.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.6c58a5af.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.6c58a5af.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.70fe2b05.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.70fe2b05.js.map",
     "static/js/2.0d4dda57.chunk.js": "/ReactPortfolio/static/js/2.0d4dda57.chunk.js",
@@ -10,15 +10,15 @@
     "static/js/3.f4444d18.chunk.js": "/ReactPortfolio/static/js/3.f4444d18.chunk.js",
     "static/js/3.f4444d18.chunk.js.map": "/ReactPortfolio/static/js/3.f4444d18.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "static/css/main.b315295d.chunk.css.map": "/ReactPortfolio/static/css/main.b315295d.chunk.css.map",
+    "static/css/main.462eeb7c.chunk.css.map": "/ReactPortfolio/static/css/main.462eeb7c.chunk.css.map",
     "static/js/2.0d4dda57.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.0d4dda57.chunk.js.LICENSE.txt",
     "static/media/Capture.PNG": "/ReactPortfolio/static/media/Capture.5099ed0c.PNG",
+    "static/media/Developer Resume - Elias Saunders.e9065106.pdf": "/ReactPortfolio/static/media/Developer Resume - Elias Saunders.e9065106.pdf",
     "static/media/Health Wealth.PNG": "/ReactPortfolio/static/media/Health Wealth.e1372d20.PNG",
     "static/media/Make Me.PNG": "/ReactPortfolio/static/media/Make Me.86cb4a49.PNG",
     "static/media/MongoDB API.PNG": "/ReactPortfolio/static/media/MongoDB API.eb0d4a58.PNG",
     "static/media/My Game.PNG": "/ReactPortfolio/static/media/My Game.1ae2b8ea.PNG",
     "static/media/README Generator.PNG": "/ReactPortfolio/static/media/README Generator.f6b10e41.PNG",
-    "static/media/Resume (1).dd631ee7.pdf": "/ReactPortfolio/static/media/Resume (1).dd631ee7.pdf",
     "static/media/Run Buddy.PNG": "/ReactPortfolio/static/media/Run Buddy.a4b96f55.PNG",
     "static/media/Team Manager.PNG": "/ReactPortfolio/static/media/Team Manager.be41e288.PNG",
     "static/media/iconmonstr-github-1.04be58c1.svg": "/ReactPortfolio/static/media/iconmonstr-github-1.04be58c1.svg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.70fe2b05.js",
     "static/js/2.0d4dda57.chunk.js",
-    "static/css/main.b315295d.chunk.css",
-    "static/js/main.a967b6ab.chunk.js"
+    "static/css/main.462eeb7c.chunk.css",
+    "static/js/main.6c58a5af.chunk.js"
   ]
 }
