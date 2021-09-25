@@ -1,5 +1,8 @@
 :root {
   background-color: #716F81;
+  --primary: #334257;
+  --secondary: #476072;
+  --tertiary: #548CA8;
 }
 
 .App {
@@ -49,7 +52,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F6AE99;
+  background-color: var(--primary);
   margin-bottom: 15px;
 }
 
@@ -62,17 +65,17 @@
 }
 
 .navColor .nav-link {
-  color: #319BCE;
+  color: white;
   font-size: 25px;
 }
 
 .navBack {
-  background-color: #F6AE99;
+  background-color: var(--primary);
 }
 
 .nav-item .nav-link{
   border-radius: 15px;
-  background: #B97A95;
+  background: var(--primary);
   width: 100px;
   height: 50px;
   margin: 20px;
@@ -84,30 +87,49 @@
 .spans{
   font-weight: bold;
   font-size: medium;
+  
+}
+
+.spans:hover {
+  color: var(--tertiary);
 }
 
 
 .maintitle {
   font-size: larger;
-  font-weight: bolder;
-  color: #B97A95;
+  font-weight: bold;
+  color: white;
 }
 
 .myCard {
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
-  background-color: #716F81;
+  background-color: var(--secondary);
 }
 
 .cardish {
   position: relative;
   width: 230px;
   height: 300px;
-  background-color: #716F81;
+  background-color: var(--secondary);
   border-radius: 15px;
-  background: #B97A95;
+  background: var(--secondary);
   margin: 15px;
+}
+
+.cardish:hover {
+  margin-bottom: 35px;
+  margin-right: 25px;
+  transition-duration: 500ms;
+  transition-property: margin-bottom, margin-right;
+}
+
+.cardish:hover .imgs{
+    width: 250px;
+    height: 250px;
+    transition-duration: 500ms;
+    transition-property: height, width;
 }
 
 .project-title {
@@ -115,14 +137,14 @@
   font-weight: bold;
   margin-left: 5px;
   margin-top: 2px;
-  color:#F6AE99;
+  color: white;
 }
 .article {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  background: #B97A95;
+  background: var(--tertiary);
   width: 400px;
   height: auto;
   margin: 10px;
@@ -130,10 +152,13 @@
 
 .textc {
   padding: 10px, 10px, 10px, 10px;
+  font-weight: 500;
 }
 
 .aboutClass, .contactDiv {
-  background-color: #716F81;
+  background-color: var(--tertiary);
+  border: #282c34;
+  border: 1cm;
 }
 
 .aboutClass {
@@ -146,9 +171,13 @@
   position: relative;
   width: 200px;
   height: 200px;
-  border-radius: 25px;
+  border-color: var(--primary);
+  border-radius: 5px;
+  border-width: thick;
   margin-left: 15px;
 }
+
+
 
 .contactForm {
   display: flex;
@@ -156,7 +185,7 @@
   justify-content: center;
   width: 300px;
   height: 600px;
-  background-color: #F6AE99;
+  background-color: var(--secondary);
   padding: 20px;
   margin-left: 30px;
   margin-top: 30px;
@@ -180,8 +209,8 @@
 }
 
 .formTitle {
-  color: #716F81;
-  font-weight: bolder;
+  color: white;
+  font-weight: bold;
 }
 
 .buttun {
@@ -191,8 +220,8 @@
 }
 
 .homeTitle {
-  color: #F6AE99;
-  font-weight: bolder;
+  color: white;
+  font-weight: bold;
 }
 
 .svg {
@@ -201,7 +230,15 @@
   margin: 10px;
 }
 
+.svg:hover {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+  transition-duration: 500ms;
+  transition-property: height, width, margin;
+}
+
 .me {
-  width: 300px;
+  width: 200px;
   border-radius: 25px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumeFile from '../../assets/Resume (1).pdf';
+import ResumeFile from '../../assets/Developer Resume - Elias Saunders.pdf';
 
 function Resume() {
    return (

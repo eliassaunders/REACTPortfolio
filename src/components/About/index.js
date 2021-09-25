@@ -4,7 +4,7 @@ import me from '../../assets/images/me.jpg'
 function About() {
     return (
         <div className="aboutClass">
-            <h1 className="homeTitle">About Me</h1>
+            <h1 className="homeTitle">About Me:</h1>
             <br/>
             <article className="article">
                 <p className="textc">I was born and raised in Tucson, Arizona. I always had an interest in computers and sofware development. 

@@ -10,13 +10,12 @@ function Project(props) {
             {props.projects.map(project => (
             <section key={project.id} className="cardish">
                 <p className="project-title">{project.name}</p>
-                <a href={project.gitHub}>
+                <a href={project.gitHub} target="_blank">
                     <img alt="Github" src={github} className="svg"></img>
                 </a>    
-                <a href={project.link}>
-                    <img alt="Link" src={link} className="svg"></img>
-                </a>
-                <img className="card-image-top imgs" src={require(`../../assets/images/${project.name.replace()}.PNG`).default}></img>
+                    <a href={project.link} target="_blank">
+                        <img className="card-image-top imgs" src={require(`../../assets/images/${project.name.replace()}.PNG`).default}/>
+                    </a>
             </section>
             ))}
         </section>
