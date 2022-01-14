@@ -89,6 +89,7 @@
   
 }
 
+
 .spans{
   font-weight: bold;
   font-size: medium;
@@ -96,7 +97,8 @@
 }
 
 .spans:hover {
-  color: var(--tertiary);
+  color: #808080;
+  transition-duration: 600ms;
 }
 
 
