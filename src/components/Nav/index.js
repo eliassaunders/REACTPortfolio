@@ -6,7 +6,7 @@ const Nav = (props) => {
   return (
     <section className="navbar">
     {tabs.map(tab => (
-      <h2 className="nav-item navColor" key={tab}>
+      <h2 className="nav-item navColor text" key={tab}>
         <a
           href={'#' + tab.toLowerCase()}
           // Whenever a tab is clicked on,

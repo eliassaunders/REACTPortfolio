@@ -12,38 +12,38 @@ function App() {
   const projects = [
     {
       id: 1,
+      name: "Health Wealth",
+      image: "./assets/images/healthwealth.PNG",
+      link: "https://healthwealth.herokuapp.com/",
+      gitHub: "https://github.com/Wsamuell/health-wealth"
+    },
+    {
+      id: 2,
       name: "My Game",
       image: "./assets/images/Project2.PNG",
       link: "https://mygameproject2.herokuapp.com",
       gitHub: "https://github.com/Robert-Schwartz/myGAME"
     },
     {
-      id: 2,
+      id: 3,
       name: "Run Buddy",
       image: "./assets/images/run-buddy.PNG",
       link: "https://eliassaunders.github.io/run-buddy/",
       gitHub: "https://github.com/eliassaunders/run-buddy"
     },
     {
-      id: 3,
+      id: 4,
       name: "Team Manager",
       image: "./assets/images/run-buddy.PNG",
       link: "https://drive.google.com/file/d/1zGPAIPeBQH4eBKB4h6J2nrzD6KCRycE2/view",
       gitHub: "https://github.com/eliassaunders/TeamManager.git"
     },
     {
-      id: 4,
+      id: 5,
       name: "MongoDB API",
       image: "./assets/images/Capture.PNG",
       link: "https://drive.google.com/file/d/1k37NKV0O1mZhZESm7-uxszaQw7G_ft99/view",
       gitHub: "https://github.com/eliassaunders/SocialMediaAPI"
-    },
-    {
-      id: 5,
-      name: "Health Wealth",
-      image: "./assets/images/healthwealth.PNG",
-      link: "https://healthwealth.herokuapp.com/",
-      gitHub: "https://github.com/Wsamuell/health-wealth"
     },
     {
       id: 6,

@@ -1,8 +1,8 @@
 :root {
-  background-color: #716F81;
-  --primary: #334257;
-  --secondary: #476072;
-  --tertiary: #548CA8;
+  background-color: #FAF9F6;
+  --primary: #000;
+  --secondary: #808080;
+  --tertiary: #FAF9F6;
 }
 
 .App {
@@ -20,6 +20,9 @@
   }
 }
 
+.text {
+  color: var(--tertiary);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -66,7 +69,8 @@
 
 .navColor .nav-link {
   color: white;
-  font-size: 25px;
+  font-size: 5px;
+  font-family: 'Josefin Slab', serif;
 }
 
 .navBack {
@@ -82,12 +86,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .spans{
   font-weight: bold;
   font-size: medium;
-  
+  font-family: 'Josefin Slab', serif;
 }
 
 .spans:hover {
@@ -99,6 +104,8 @@
   font-size: larger;
   font-weight: bold;
   color: white;
+  margin-left: 25px;
+  font-family: 'Josefin Slab', serif;
 }
 
 .myCard {
@@ -138,6 +145,7 @@
   margin-left: 5px;
   margin-top: 2px;
   color: white;
+  font-family: 'Josefin Slab', serif;
 }
 .article {
   display: flex;
@@ -148,11 +156,15 @@
   width: 400px;
   height: auto;
   margin: 10px;
+  background-color: var(--tertiary);
 }
 
 .textc {
   padding: 10px, 10px, 10px, 10px;
-  font-weight: 500;
+  font-weight: bold;
+  margin-left: 25px;
+  color: #000;
+  font-family: 'Josefin Slab', serif;
 }
 
 .aboutClass, .contactDiv {
@@ -165,6 +177,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  padding: 20px;
 }
 
 .imgs {
@@ -211,6 +224,7 @@
 .formTitle {
   color: white;
   font-weight: bold;
+  font-family: 'Josefin Slab', serif;
 }
 
 .buttun {
@@ -220,8 +234,10 @@
 }
 
 .homeTitle {
-  color: white;
+  color: var(--primary);
   font-weight: bold;
+  margin-left: 25px;
+  font-family: 'Josefin Slab', serif;
 }
 
 .svg {

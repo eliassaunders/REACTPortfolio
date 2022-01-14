@@ -12,7 +12,7 @@ function Footer() {
             <a href='https://www.linkedin.com/in/elias-saunders-5a0389208/' target="_blank">
                 <img className="footerC" src={linkedin}></img>
             </a>
-            <a href='https://mail.google.com/mail/?to=eliasashtonsaunders@gmail.com#compose' target="_blank">
+            <a href='mailto:eliasashtonsaunders@gmail.com' target="_blank">
                 <img className="footerC" src={gmail}></img>
             </a>
         </div>
