@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.462eeb7c.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.6c58a5af.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.6c58a5af.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.846895f5.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.d0e37ee8.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.d0e37ee8.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.70fe2b05.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.70fe2b05.js.map",
     "static/js/2.0d4dda57.chunk.js": "/ReactPortfolio/static/js/2.0d4dda57.chunk.js",
@@ -10,10 +10,11 @@
     "static/js/3.f4444d18.chunk.js": "/ReactPortfolio/static/js/3.f4444d18.chunk.js",
     "static/js/3.f4444d18.chunk.js.map": "/ReactPortfolio/static/js/3.f4444d18.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "static/css/main.462eeb7c.chunk.css.map": "/ReactPortfolio/static/css/main.462eeb7c.chunk.css.map",
+    "static/css/main.846895f5.chunk.css.map": "/ReactPortfolio/static/css/main.846895f5.chunk.css.map",
     "static/js/2.0d4dda57.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.0d4dda57.chunk.js.LICENSE.txt",
     "static/media/Capture.PNG": "/ReactPortfolio/static/media/Capture.5099ed0c.PNG",
-    "static/media/Developer Resume - Elias Saunders.e9065106.pdf": "/ReactPortfolio/static/media/Developer Resume - Elias Saunders.e9065106.pdf",
+    "static/media/Developer Resume - Elias Saunders (1).6ff305bf.pdf": "/ReactPortfolio/static/media/Developer Resume - Elias Saunders (1).6ff305bf.pdf",
+    "static/media/FullstackCertification.b7780543.pdf": "/ReactPortfolio/static/media/FullstackCertification.b7780543.pdf",
     "static/media/Health Wealth.PNG": "/ReactPortfolio/static/media/Health Wealth.e1372d20.PNG",
     "static/media/Make Me.PNG": "/ReactPortfolio/static/media/Make Me.86cb4a49.PNG",
     "static/media/MongoDB API.PNG": "/ReactPortfolio/static/media/MongoDB API.eb0d4a58.PNG",
@@ -24,13 +25,12 @@
     "static/media/iconmonstr-github-1.04be58c1.svg": "/ReactPortfolio/static/media/iconmonstr-github-1.04be58c1.svg",
     "static/media/iconmonstr-linkedin-2.48f4acce.svg": "/ReactPortfolio/static/media/iconmonstr-linkedin-2.48f4acce.svg",
     "static/media/icons8-gmail.b6b3a7f0.svg": "/ReactPortfolio/static/media/icons8-gmail.b6b3a7f0.svg",
-    "static/media/me.5f3fea77.jpg": "/ReactPortfolio/static/media/me.5f3fea77.jpg",
-    "static/media/paper-clip-svgrepo-com.30e8f7d0.svg": "/ReactPortfolio/static/media/paper-clip-svgrepo-com.30e8f7d0.svg"
+    "static/media/me.a51cbc01.jpg": "/ReactPortfolio/static/media/me.a51cbc01.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.70fe2b05.js",
     "static/js/2.0d4dda57.chunk.js",
-    "static/css/main.462eeb7c.chunk.css",
-    "static/js/main.6c58a5af.chunk.js"
+    "static/css/main.846895f5.chunk.css",
+    "static/js/main.d0e37ee8.chunk.js"
   ]
 }
