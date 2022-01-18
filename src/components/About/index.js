@@ -7,10 +7,7 @@ function About() {
             <h1 className="homeTitle">About Me:</h1>
             <br/>
             <article className="article">
-                <p className="textc">I was born and raised in Tucson, Arizona. I always had an interest in computers and sofware development. 
-                From an early age I was trying to develop video games. 
-                While none of these turned out, it was an introduction into the coding workspace. 
-                Now, due to the effects of COVID-19, I am taking a class to get certified in fullstack web development.</p>
+                <p className="textc">Born and raised in Tucson, Arizona, I have always had a passion for coding and technology. Now I am fullstack certified through Trilogy Education and the University of Arizona. Hence, I have created this portfolio to display my newfound skills. Tour the website for my contact info and projects I have completed along with the codebases.</p>
             </article>
             <img className="me" src={me}></img>
          </div>

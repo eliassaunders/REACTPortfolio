@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Nav = (props) => {
 
-  const tabs = ['About', 'Project', 'Contact', 'Resume']
+  const tabs = ['About', 'Project', 'Contact', 'Resume and Certification']
   return (
     <section className="navbar">
     {tabs.map(tab => (

@@ -89,7 +89,11 @@
   
 }
 
-
+.button {
+  background-color: #282c34;
+  margin: 10px;
+  border: var(--primary);
+}
 .spans{
   font-weight: bold;
   font-size: medium;
@@ -101,6 +105,11 @@
   transition-duration: 600ms;
 }
 
+.buttonDiv {
+  flex: auto;
+  flex-wrap: wrap;
+  padding: 10px;
+}
 
 .maintitle {
   font-size: larger;
